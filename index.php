@@ -220,7 +220,7 @@ if (isset($_SESSION["values"]))
         if ( //If solved
         $_POST["0"] == $_SESSION["values"][0] && $_POST["1"] == $_SESSION["values"][1] && $_POST["2"] == $_SESSION["values"][2] && $_POST["3"] == $_SESSION["values"][3])
         {
-            echo "<h1 class='label' id='win'>Congrats, you cracked the code!</h1>
+            echo "<h1 class='label' id='win'>WINNER!</h1>
           <form action=\"index.php\" method=\"GET\">
               <button class=\"btn btn-outline-primary\" type=\"submit\">Play again</button>
           </form>";
@@ -255,7 +255,7 @@ else
 }
 
 
-//printRightColors(); // Uncomment this only for debugging.
+printRightColors(); // Uncomment this only for debugging.
 echo "<br><br>";
 
 

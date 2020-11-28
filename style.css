@@ -2,7 +2,7 @@
  * @author Carlos Pinto
  * @email kkobtk@gmail.com
  * @create date 2020-11-28 12:50:54
- * @modify date 2020-11-28 13:42:01
+ * @modify date 2020-11-28 13:52:28
  * @desc [description]
  */
 
@@ -96,7 +96,7 @@ option{
 }
 
 #win{
-    background-color: gold;
+    background-color: seagreen;
 }
 
 #lost{
