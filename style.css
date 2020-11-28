@@ -1,0 +1,147 @@
+/**
+ * @author Carlos Pinto
+ * @email kkobtk@gmail.com
+ * @create date 2020-11-28 12:50:54
+ * @modify date 2020-11-28 13:42:01
+ * @desc [description]
+ */
+
+ html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 70px;
+    text-align: center !important;
+}
+
+/* ---- Main form and its select boxes ---- */
+form[action="index.php"] {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50% !important;
+    min-width: 470px;
+}
+
+select{
+    width: 60px !important;
+    height: 60px !important;
+    color: transparent;
+}
+
+option{
+    font-size: 40px;
+}
+
+.btn-primary{
+    margin-top: 12px;
+    padding: 6px 20px !important;
+}
+
+.btn-danger{
+    margin-top: 12px;
+    padding: 6px 20px !important;
+}
+
+/* ---- circles & colors ----*/
+.circle {
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #7c7c7c;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #fa4242;
+}
+
+.blue {
+    background-color: #2323db;
+}
+
+.green {
+    background-color: #47e747;
+}
+
+.yellow {
+    background-color: #f5f532;
+}
+
+.black {
+    background-color: #141414;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.white {
+    background-color: #dfdfdf;
+    border: 1px solid #3d3d3d;
+
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+/* ---- win & lost labels ---- */
+
+.label{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#win{
+    background-color: gold;
+}
+
+#lost{
+    background-color: #8686ff;
+}
+
+/* ---- Tables (attempts and correct colors) ---- */
+
+table[id="attempts"],
+table[id="correct-colors"] {
+    margin-right: auto;
+    margin-left: auto;
+
+    border-top: 2px solid white !important;
+}
+
+table[id="attempts"]{
+    width: 40%;
+    min-width: 250px;
+}
+
+
+table[id="correct-colors"]{
+    width: 30%;
+    min-width: 150px;
+}
+
+table[id="attempts"] td, table[id="attempts"] th{
+    /* max-width: 120px; */
+    vertical-align: middle;
+}
+
+table[id="attempts"] p {
+    display: inline-block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* ---- rules (button toggler & modal window) ---- */
+#info-button {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.modal-content{
+    text-align: left;
+}

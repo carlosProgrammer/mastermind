@@ -1,0 +1,46 @@
+<!--
+@author Carlos Pinto
+@email kkobtk@gmail.com
+@create date 2020-11-28 12:50:45
+@modify date 2020-11-28 13:42:00
+@desc [description]
+-->
+
+<!-- Rules modal and its button toggler -->
+
+<!-- Button that triggers the game rules modal -->
+<button type="button" id="info-button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal">Game rules</button>
+
+<!-- Game rules modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-circleledby="exampleModalcircle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalcircle">Game rules</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-circle="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5>Introduction</h5>
+                <p><b>Master Mind</b> is an abstract board game of cryptanalysis. The player must guess the secret code composed by the server.</p>
+                <p>The secret code is a series of 4 colors (that can be repeated), automatically generated every new game.</p>
+
+                <h5>Game stages</h5>
+                <p>The player makes his attempt, trying to guess the code. The server responds by providing some suggestions:</p>
+                <ul>
+                    <li>
+                        <p>The number of right colors in the right place, marked with black circles</p>
+                    </li>
+                    <li>
+                        <p>The number of right colors in the wrong place, marked with white circles</p>
+                    </li>
+                </ul>
+
+                <h5>Victory</h5>
+                <p>If the decoder (player) succed to guess the code within 10 attempts, he wins the game, otherwise the encoder (server) wins.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
